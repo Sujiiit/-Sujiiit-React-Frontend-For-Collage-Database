@@ -1,0 +1,83 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #c0d2d4;
+  color: #555;
+  text-align: center;
+}
+
+input{
+	border: none;
+	background: transparent;
+	text-align: center;
+	outline: none;
+}
+.title{
+	font-size: 3vh;
+	font-weight: bold;
+}
+h1{
+	display: inline;
+	color: #003152;;
+	font-size: 3vh;
+	padding: 0 4vh;
+	font-weight: bold;
+  }
+  button{
+	cursor: pointer;
+	outline: none;
+  }
+
+  .save{
+	padding: 0.5vh 1.5vh;
+	background-color: blueviolet;
+	color: white;
+	border: 1px solid royalblue;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 1.5vh;
+	font-weight: bold;
+	margin-right: 5vh;
+  }
+  .add{
+	border: none;
+	background: transparent;
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 1.5vh;
+	cursor: pointer;
+	padding-right: 25px;
+  }
+  
+  .next{
+	padding: 1vh 2vh;
+	border-radius: 50%;
+	font-size: 2vh;
+	border: none;
+	color: white;
+	background-color: blueviolet;
+  }
+  .navbar{
+	   height: 10vh; 
+	  overflow: hidden;
+	  background-color: #003152;
+	  position: fixed; /* Set the navbar to fixed position */
+	  top: 0; /* Position the navbar at the top of the page */
+	  width: 100%; 
+  }
+  .navibuttons{
+	margin-top: 8vh;
+	overflow: hidden;
+	position: fixed;
+	left: 28%;
+
+}
+  table{
+	background-color: white;
+	margin-top: 10vh;
+}
+  .head{
+	  font-weight: bold;
+	  height: 4vh;
+  }
+
+ 
